@@ -65,7 +65,6 @@ const Hero = () => {
                       <li className="p-5" key={index}>
                         <img src={icon} width={24} height={25} alt={icon} />
                       </li>
-                      iiiii
                     ))}
                   </ul>
                 </ScrollParallax>
