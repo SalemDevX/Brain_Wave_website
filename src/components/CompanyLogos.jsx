@@ -1,5 +1,7 @@
 import { companyLogos } from "../constants";
 
+
+// eslint-disable-next-line react/prop-types
 const CompanyLogos = ({ className }) => {
   return (
     <div className={className}>
