@@ -1,11 +1,20 @@
-import React from 'react'
+import Section from "./Section";
+import Heading from "./Heading";
+
 
 const Services = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <Section id="how-to-use">
+      <div className="container">
+        <Heading
+          title="Generative AI made for creators."
+          text="Brainwave unlocks the potential of AI-powered applications"
+        />
 
-export default Services
+       
+      </div>
+    </Section>
+  );
+};
+
+export default Services;
