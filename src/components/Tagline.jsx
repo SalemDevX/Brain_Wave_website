@@ -1,11 +1,14 @@
+import brackets from "../assets/svg/Brackets";
 
-
-const Tagline = () => {
+// eslint-disable-next-line react/prop-types
+const TagLine = ({ className, children }) => {
   return (
-    <div>
-      
+    <div className={`tagline flex items-center ${className || ""}`}>
+      {brackets("left")}
+      <div className="mx-3 text-n-3">{children}</div>
+      {brackets("right")}
     </div>
-  )
-}
+  );
+};
 
-export default Tagline
+export default TagLine;
